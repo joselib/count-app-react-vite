@@ -5,3 +5,15 @@ html, body {
     font-size: 2.3rem;
     padding: 70px;
 }
+
+button {
+    background-color: #21232A;
+    border: 1px solid #ffeaea;
+    border-radius: 10px;
+    color: #ffeaea;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    margin: 10px;
+    padding: 10px;
+}
