@@ -6,7 +6,7 @@ import { CountApp } from "./CountApp";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <CountApp  value={10} />
+        <CountApp  value={0} />
     </React.StrictMode>
 )
 

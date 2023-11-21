@@ -13,14 +13,22 @@ export const CountApp = ({ value }) => {
 
     }
     
+    const handSubstract = (event) => {
+        if (counter > 0) {
+            setCounter( counter - 1)
+        }else{
+            setCounter(0)
+        }
+    }
+    const handleReset = (event) => setCounter(value)
 
     return (
         <>
             <h1>Count App</h1>
             <h2> { counter } </h2>
-            <button onClick={ handleAdd}>
-                +1
-            </button>
+            <button onClick={handleAdd}>+1</button>
+            <button onClick={handSubstract}>-1</button>
+            <button onClick={handleReset}>Reset</button>
         </>
     );
 };
