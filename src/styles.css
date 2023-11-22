@@ -1,0 +1,19 @@
+html, body {
+    background-color: #21232A;
+    color: #ffeaea;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 70px;
+}
+
+button {
+    background-color: #21232A;
+    border: 1px solid #d60c0c;
+    border-radius: 10px;
+    color: #ffeaea;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+}
